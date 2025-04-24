@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML + CSS Refreshed Practice Guide</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background: #2e2e2e;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background: #4CAF50;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      border-left: 5px solid #4CAF50;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      background: #eef5f2;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-left: 4px solid #4CAF50;
+      border-radius: 6px;
+    }
+
+    .practice {
+      background: #fffde7;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 4px solid #ffca28;
+      border-radius: 8px;
+    }
+
+    .flexbox {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .flex-item {
+      flex: 1;
+      background: #dcedc8;
+      padding: 10px;
+      text-align: center;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HTML + CSS Refreshed Practice Guide</h1>
+    <p>Interactive beginner cheat sheet and styling sandbox</p>
+  </header>
+
+  <nav>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#practice">Practice</a>
+  </nav>
+
+  <section class="section" id="html">
+    <h2>🔹 HTML Basics</h2>
+    <div class="box">&lt;html&gt; — Root wrapper of entire document</div>
+    <div class="box">&lt;head&gt; — Metadata section (title, links)</div>
+    <div class="box">&lt;body&gt; — Visible content</div>
+    <div class="box">&lt;h1&gt;-&lt;h6&gt; — Headings</div>
+    <div class="box">&lt;p&gt; — Paragraph</div>
+    <div class="box">&lt;div&gt; — Block container</div>
+    <div class="box">&lt;span&gt; — Inline container</div>
+    <div class="box">&lt;a href&gt; — Hyperlink</div>
+    <div class="box">&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; — Lists</div>
+    <div class="box">&lt;table&gt; — Tabular data</div>
+  </section>
+
+  <section class="section" id="css">
+    <h2>🎨 CSS Basics</h2>
+    <div class="box">color: Changes text color</div>
+    <div class="box">background-color: Fills background</div>
+    <div class="box">padding: Inside spacing</div>
+    <div class="box">margin: Outside spacing</div>
+    <div class="box">border: Outlines box</div>
+    <div class="box">font-size: Text size</div>
+    <div class="box">text-align: Text position</div>
+    <div class="box">display: Controls layout</div>
+    <div class="box">flexbox: Smart layout</div>
+    <div class="box">box-shadow: Shadow styling</div>
+  </section>
+
+  <section class="section" id="practice">
+    <h2>✅ Practice Examples</h2>
+    <div class="practice">Box 1: Padding: 20px | Margin: 10px</div>
+    <div class="practice" style="background:#ffcdd2;">Box 2: Padding: 0 | Margin: 30px</div>
+    
+    <div class="flexbox">
+      <div class="flex-item">Flex Item 1</div>
+      <div class="flex-item">Flex Item 2</div>
+    </div>
+
+    <div class="practice" style="text-align: center;">Centered and styled text!</div>
+
+    <div class="practice" style="background: #fff3e0; border-radius: 10px;">
+      Rounded alert-style box.
+    </div>
+  </section>
+
+</body>
+</html>
